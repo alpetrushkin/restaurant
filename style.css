@@ -1,0 +1,93 @@
+body {
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+   overflow: hidden;
+}
+
+.header {
+   background-image: url("images/bg.png");
+   background-size: cover;
+   height: 100vh;
+   padding-top: 50px;
+}
+
+.container {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.header-body {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header__logo-img {
+   width: 100px;
+   height: 68px;
+}
+
+.nav__item-elem {
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 14px;
+   color: #FFFFFF;
+   margin-right: 23px;
+   transition: color 0.5s linear;
+}
+.nav__item-elem:hover {
+   color: #FF4400FF;
+}
+
+.nav__item-elem:last-child {
+   margin-right: 65px;
+}
+
+.contact__cart {
+   position: relative;
+}
+
+.contact__cart-item {
+   position: absolute;
+   top: 26px;
+   left: -50px;
+   border-right: 2px solid #FFFFFF;
+   padding-right: 20px;
+}
+
+.contact__number {
+   display: flex;
+   align-items: center;
+}
+
+.contact__number-img {
+   margin-right: 4px;
+}
+
+.contact__number-num {
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.contact__number-descr {
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+}
+
+.header__btn-button {
+   font-weight: 700;
+   font-size: 14px;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 14px 18px;
+   background: #FF7400;
+   transition: background 0.5s linear;
+}
+
+.header__btn-button:hover {
+   background: #ff4400;
+}
